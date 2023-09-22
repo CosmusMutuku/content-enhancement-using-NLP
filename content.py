@@ -7,7 +7,6 @@ from gensim.summarization import summarize
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
-
 # Sample educational content (replace with your data collection logic)
 educational_content = """
     Educational content is essential for learning. It helps students acquire knowledge
