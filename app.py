@@ -6,6 +6,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import textstat
 from gensim.summarization import summarize
 
+
 app = Flask(__name__)
 
 @app.route('/enhance', methods=['POST'])
